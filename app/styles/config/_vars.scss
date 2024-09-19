@@ -1,0 +1,185 @@
+// Fonts Setting
+$index: calc(1vw + 1vh);
+
+$fontsize: 14px; 
+$lineheight: 1.4; 
+$userfont: 'Cera Pro'; 
+$userfont2: 'JetBrains Mono'; 
+$userfont3: 'foncor 2023 BrushHandWrite v0.9'; 
+
+// Ui Setting
+
+
+$ui-height: 52px;
+$ui-height-lg: 52px;
+$ui-fz: 18px;
+$ui-fz-lg: 16px;
+$ui-brrd: 64px;
+
+$ui-inp-padding: 0 16px;
+$ui-inp-padding-lg: 0 16px;
+
+$ui-inp-lpos-label: 16px;
+$ui-inp-lpos-label-lg: 16px;
+$ui-inp-tpos-label: 16px;
+$ui-inp-tpos-label-lg: 16px;
+
+// Colors
+
+$cprimary: #E80024;
+$text:  #fff;
+
+$dark:  #101010;
+
+
+$grey:  #e3e3e4;
+$lgrey: #D9D9D9;
+
+
+$blue:  #074D81;
+$lblue: #2664C1;
+$dblue: #0C193A;
+
+$green:  #00BC62;
+$lgreen: #40e5aa;
+$dgreen: #1a8b62;
+
+$ylw:   #efd208;
+$lylw:  #f7e250;
+$dylw:  #c1aa0e;
+
+$orange:  #FF965B;
+$lorange: #ffa961;
+$dorange: #dd6600;
+
+$red:  #f61c1c;
+$red2:  #ff0000;
+$lred: #FF564E;
+$dred: #cf0d37;
+
+
+// Mixin
+@mixin transition{transition: all .3s ease;}
+
+@mixin flb-wr {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    >* {margin-left: 20px;}
+}
+@mixin nowrap {
+    flex-wrap: initial;
+}
+@mixin flb-cc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flb-csb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flb-sb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &.a-end{
+        align-items: flex-end;
+    }
+    &.a-start{
+        align-items: flex-start;
+    }
+}
+@mixin flb-sar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@mixin flb-sc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@mixin flb-cs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+@mixin flb-ss {
+    display: flex;
+    flex-wrap: wrap;
+}
+@mixin flb-s_end {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+@mixin flb-c_end {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+@mixin overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: '';
+}
+
+@mixin iconmoon($icon){
+    display: inline-block;
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  content: $icon;
+}
+
+// GRID -----------------------------------
+
+
+// Mobile breakpoint ---
+
+$mbp-sm: 577px;
+$mbp-md: 768px;
+$mbp-lmd: 822px;
+$mbp-lg: 992px;
+$mbp-xl: 1200px;
+$mbp-xxl: 1360px;
+$mbp-exl: 1360px;
+
+// Container ---
+
+$container: 100%;
+$container-sm: 100%;
+$container-md: 720px;
+$container-lmd: 780px;
+$container-lg: 960px;
+$container-xl: 1140px;
+$container-xxl: 1320px;
+$container-exl: 1320px;
+
+// Gutter ---
+
+$gutter: 15px; 
+$gutter-sm: 10px; 
+$gutter-md: 10px; 
+$gutter-lg: 10px; 
+$gutter-xl: 10px; 
+$gutter-xxl: 10px; 
+$gutter-exl: 10px; 
+
+

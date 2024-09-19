@@ -1,0 +1,212 @@
+<!--noindex-->
+<div class="popup__mask"></div>
+<div class="popup" data-popup="popup-backcall">
+    <form action="https://fonstats.ru/code/check.php" method="POST" class="popup__modal form flb-sb" data-form="standartform" autocomplete="off">
+        <a class="popup__modal-close flb-cc">
+            <svg>
+                <use xlink:href="#icon-close"></use>
+            </svg>
+        </a>
+        <input type="hidden" name="event" value="DEMO_FORM">
+        <input type="hidden" name="landing" value="DEMO_FORM">
+        <input type="hidden" name="bet" value="auth">
+        <div class="popup__modal-info">
+            <div class="popup__modal-title">АВТОРИЗУЙСЯ и будь первым</div>
+            <div class="popup__modal-subtitle">кто узнает о новом дропе</div>
+            <div class="popup__modal-text">Когда мы выкатим новый дроп, первым делом соообщим тебе!</div>
+        </div>
+        <div class="popup__modal-formcontols">
+            <div class="input-wrap mb15">
+                <div class="label-input">ФИО<span class="red">*</span></div>
+                <input type="text" name="name" value="" class="input required" required="required">
+                <div class="error-text">Поля обязательное для заполнения</div>
+            </div>
+            <div class="input-wrap mb15">
+                <div class="label-input">Номер телефона<span class="red">*</span></div>
+                <input type="text" name="phone" value="" pattern="\+7 \(9\d\d\) \d\d\d-\d\d-\d\d" class="input required phone-mask" required="required">
+                <div class="error-text">Поля обязательное для заполнения</div>
+            </div>
+            <div class="input-wrap mb20">
+                <div class="label-input">ССЫЛКА НА VK / INSTAGRAM*<span class="red">*</span></div>
+                <input type="text" name="link" value="" class="input required" required="required">
+                <div class="error-text">Поля обязательное для заполнения</div>
+            </div>
+            
+            <button class="btn btn-primary btn-submit w100 mb20">Отправить</button>
+            <label class="checkbox checkbox--required mb10 w100">
+                <input class="checkbox-input" type="checkbox" name="personalconfid" required="required">
+                <span class="checkbox-inputcustom flb-cc"></span>
+                <span class="checkbox-text">Соглашаюсь на обработку <a href="">персональных данных</a></span>
+            </label>
+            <label class="checkbox checkbox--required w100">
+                <input class="checkbox-input" type="checkbox" name="age18" required="required">
+                <span class="checkbox-inputcustom flb-cc"></span>
+                <span class="checkbox-text">Подтверждаю, что мне <span class="c-primary">есть 18</span></span>
+            </label>
+        </div>
+        <div class="popup__modal-infosale">
+            <p><b>Условия акции</b></p>
+            <p>*для успешной авторизации 
+                страница должна быть открытой.
+                Деятельность Meta Platforms Inc, включая 
+                Instagram запрещена на территории России.</p>
+        </div>
+    </form>
+</div>
+<div class="popup" data-popup="successfull">
+    <div class="popup__modal popup__modal--successfull flb-cc">
+        <a class="popup__modal-close flb-cc">
+            <svg>
+                <use xlink:href="#icon-close"></use>
+            </svg>
+        </a>
+        <div class="popup__modal-suctitle">спасибо !</div>
+        <div class="popup__modal-subtitle">Мы сообщим тебе о новых дропах.</div>
+        <div class="w100">
+            <button class="popup__modal-btnclose btn btn-primary">Отлично</button>
+        </div>
+    </div>
+</div>
+<div class="popup" data-popup="errorEvents">
+    <div class="popup__modal popup__modal--successfull flb-cc">
+        <a class="popup__modal-close flb-cc">
+            <svg>
+                <use xlink:href="#icon-close"></use>
+            </svg>
+        </a>
+        <div class="popup__modal-suctitle">Ошибка !</div>
+        <div class="popup__modal-subtitle">Что-то пошло не так.</div>
+        <div class="w100">
+            <button class="popup__modal-btnclose btn btn-primary">Закрыть</button>
+        </div>
+    </div>
+</div>
+<div class="popup type--video" data-popup="video">
+    <div class="popup__modal popup__modal--video">
+        <a class="popup__modal-close flb-cc">
+            <svg>
+                <use xlink:href="#icon-close"></use>
+            </svg>
+        </a>
+        <img src="img/popup-video-title.svg" width="777" alt="TOPDROPS VIDEO" class="popup__modal-videotitle mb15">
+        <div class="popup__modal-video">
+            <button class="popup__modal-video_playbtn">
+                <img src="img/icon/play-circle-red.svg" width="100" height="100" alt="play-video">
+            </button>
+            <video src=""></video>
+        </div>
+    </div>
+</div>
+<div class="popup" data-popup="gallery">
+    <div class="popup__modal popup__modal--video">
+        <a class="popup__modal-close flb-cc">
+            <svg>
+                <use xlink:href="#icon-close"></use>
+            </svg>
+        </a>
+        <div class="popup__modal-suctitle color--wt">CHAMPIONS PARTY</div>
+        <div class="popup__modal-title mt10">Как это было</div>
+        <div class="popup__modal-gallery mt40 slicklightbox-row flb-ss">
+            <button class="popup__modal-gallery_foto play-video-popup column-5" data-video="files/popup-video1.mp4">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+                <img src="img/icon/play-circle-red2.svg" width="76" height="76" alt="img-play" class="img-play">
+            </button>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-4 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-4 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-5 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-2 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-5 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-2 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="popup" data-popup="day2gallery">
+    <div class="popup__modal popup__modal--video">
+        <a class="popup__modal-close flb-cc">
+            <svg>
+                <use xlink:href="#icon-close"></use>
+            </svg>
+        </a>
+        <div class="popup__modal-suctitle color--wt">CHAMPIONS PARTY</div>
+        <div class="popup__modal-title mt10">Как это было</div>
+        <div class="popup__modal-gallery mt40 slicklightbox-row flb-ss">
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-2 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-4 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-4 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-5 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-4 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-2 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-3 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-5 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+            <a href="img/popup-gallery/foto1.jpg" class="popup__modal-gallery_foto column-2 slicklightbox-foto">
+                <img src="img/popup-gallery/foto1.jpg" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+<!--/noindex-->
